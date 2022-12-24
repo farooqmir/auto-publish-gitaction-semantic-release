@@ -9,6 +9,8 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 // see: https://github.com/storybookjs/storybook/issues/9556
 /**
  * A custom Thing component. Neat!
+ * 
+ * Release a patch 
  */
 export const Thing: FC<Props> = ({ children }) => {
   return <div>{children || `your first release changes. aha!`}</div>;
